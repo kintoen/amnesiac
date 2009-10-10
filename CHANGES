@@ -92,5 +92,11 @@ sir skullY's fault, blame him
 -Add easykline script to oper module. To use this type /klineview [number] 
  and a special window for klines is created. Type help in that window (no slash)
  to see how it works. It's good for mass klining / fast klining. Inspired
- by http://www.garion.org/hosc/. (Public domain license)
+ by http://www.garion.org/hosc/. (Public domain)
  //kreca
+
+10.10.09
+-Attempt to avoid flooding users with /whowas notifications per hop's
+ recommendation. //skullY
+-Fix kreca's wording (something in the public domain has no license.) //skullY
+-Stylistic cleanups. //skullY
