@@ -1,6 +1,18 @@
 ## various notes/documents about some common problems known in
 ## amnesiac/epic.
 
+date: 2009/06/23 17:52:43;  author: kreca;  state: Exp;  lines: +32 -21
+Oki, did a bugfix to the old code
+Can someone that _was_ affected by the bug please type /set_line_drawing 1
+and check how the sbars look after that.
+please switch between
+/eval set_line_drawing 1;sbar 1;
+and
+/eval set_line_drawing 0;sbar 1;
+to see if there is any difference
+
+The above is another possible workaround for some terminals. seems to make
+some europeans happy anyways, and thats what truly matters. ;p
 
 ## ansi/ibm437 hardcoding fonts/ugly looking etc..
 -this is not a bug per se, it's just how the font handles ansi codes. 
